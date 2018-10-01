@@ -1,5 +1,8 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
+# testing ECMAScript
+/_script-examples
+
 # compiled output
 /dist
 /tmp

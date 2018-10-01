@@ -1,0 +1,17 @@
+<div class="card">
+	<div class="card-header">
+		Header
+	</div>
+	<div class="card-body">
+		<div class="form-group">
+			<label for="username">Nombre</label>
+			<input id="username" name="username" class="form-control" type="text" [(ngModel)]="usuario">
+		</div>
+		<h4 class="card-title">Saludo Two-way Data Binding</h4>
+		<p class="card-text">Texto</p>
+		<button class="btn" (click)="btnBorrar($event)">Borrar</button>
+	</div>
+	<div class="card-footer text-muted">
+		¡{{ idioma=='es' ? 'Hola' : 'Hello' }} {{ usuario.toUpperCase() }}!
+	</div>
+</div>

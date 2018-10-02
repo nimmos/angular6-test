@@ -1,0 +1,22 @@
+<div class="container">
+	<div class="row alto mt-4">
+		<div class="card col-12">
+			<div class="card-header">
+				<p class="h4">{{oBook.title}}</p>
+			</div>
+			<div class="card-body">
+				<label class="text-primary">Id: </label>
+				<p class="card-text">{{oBook.id}}</p>
+				<label class="text-primary">Autor: </label>
+				<p class="card-text">{{oBook.autor}}</p>
+			</div>
+			<div class="card-footer text-muted">
+				<label class="text-primary">Descripción: </label>
+				<p class="card-text">{{oBook.descripcion}}</p>
+			</div>
+			<div class="card-body">
+				<button (click)="gotoBooks()" class="btn btn-info">Volver</button>
+			</div>
+		</div>
+	</div>
+</div>

@@ -3,9 +3,12 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'tst-libros',
   template: `
-    <p>
-      libros works!
-    </p>
+	<div class="row">
+		<tst-mock-books class="col-6"></tst-mock-books>
+		<tst-google-books class="col-6"></tst-google-books>
+		<tst-google-books-by-service class="col-6"></tst-google-books-by-service>
+		<tst-lista class="col-6"></tst-lista>
+	</div>
   `,
   styles: []
 })
